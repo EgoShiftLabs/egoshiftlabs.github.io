@@ -1,0 +1,12 @@
+{
+  "name": "Project GEEK",
+  "short_name": "GEEK",
+  "description": "The future was leaked. 1973 → 2026.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#050914",
+  "theme_color": "#0b1538",
+  "icons": [
+    {"src":"assets/icon.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
