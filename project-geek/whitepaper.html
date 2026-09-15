@@ -4,16 +4,21 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#0b1538" />
-  <meta name="description" content="Project GEEK Whitepaper — the thesis, canon, launch philosophy and cultural architecture behind $GEEK." />
+  <meta name="description" content="Project GEEK Whitepaper — the thesis, canon, launch philosophy and cultural architecture behind GEEK." />
   <link rel="icon" href="assets/icon.svg" />
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .paper-shell{width:min(1060px,calc(100% - 36px));margin:0 auto;padding:74px 0 120px}.paper-cover{position:relative;min-height:540px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:55px;border:1px solid #38538f;background:linear-gradient(145deg,#142b66,#09132d 62%,#050914);padding:56px;overflow:hidden}.paper-cover:after{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(255,211,77,.14);border-radius:50%;right:-180px;top:-120px;box-shadow:0 0 0 45px rgba(255,211,77,.025),0 0 0 90px rgba(255,211,77,.02)}.paper-cover img{width:min(100%,460px);margin-inline:auto;border-radius:50%;position:relative;z-index:2;box-shadow:0 0 0 9px #0a1535,0 0 0 10px rgba(255,211,77,.5),0 40px 100px #000;aspect-ratio:1/1;object-fit:contain}.paper-cover h1{font:clamp(62px,9vw,118px)/.82 Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;letter-spacing:-.04em;margin:15px 0;color:var(--gold)}.paper-cover h1 span{display:block;color:var(--cream)}.paper-cover .sub{font:800 11px/1.7 var(--mono);letter-spacing:.1em;color:#b3c2e7}.paper-cover .edition{margin-top:40px;display:flex;gap:24px;font:800 9px var(--mono);color:#7488bc}.paper-toc{margin:40px 0;border:1px solid #29447f;background:#08122a;padding:28px}.paper-toc b{font:800 10px var(--mono);color:var(--gold);letter-spacing:.1em}.paper-toc ol{margin:22px 0 0;columns:2;column-gap:45px;padding-left:22px}.paper-toc li{padding:6px 0;color:#9eadcf;font:12px var(--mono)}.paper-section{display:grid;grid-template-columns:160px 1fr;gap:42px;padding:70px 0;border-bottom:1px solid #223969}.paper-num{font:900 11px var(--mono);letter-spacing:.12em;color:var(--gold);position:sticky;top:100px;align-self:start}.paper-body h2{font-size:clamp(34px,5vw,58px);margin:0 0 28px;line-height:1;letter-spacing:-.035em}.paper-body h3{font:900 15px var(--mono);letter-spacing:.03em;margin:35px 0 12px;color:var(--gold)}.paper-body p,.paper-body li{font-size:16px;line-height:1.78;color:#b8c2dc}.paper-body strong{color:#eef1fb}.paper-body blockquote{margin:30px 0;padding:24px;border-left:4px solid var(--gold);background:#0b1734;font:900 clamp(23px,4vw,38px)/1.15 var(--mono);color:var(--cream)}.paper-body .callout{padding:20px;border:1px solid #3d578e;background:linear-gradient(135deg,rgba(28,62,135,.3),rgba(9,18,42,.6));margin:26px 0}.paper-body .callout b{display:block;font:800 9px var(--mono);color:var(--teal);letter-spacing:.1em;margin-bottom:7px}.matrix{width:100%;border-collapse:collapse;margin:25px 0;font:12px/1.5 var(--mono)}.matrix th,.matrix td{border:1px solid #2b457d;padding:13px;text-align:left;vertical-align:top}.matrix th{background:#142a5d;color:var(--gold)}.matrix td{color:#a8b6d7}.ref-list{counter-reset:ref}.ref-list li{margin-bottom:14px}.ref-list a{color:var(--gold);text-decoration:underline;text-underline-offset:3px}.paper-back{display:inline-flex;margin-top:35px}.print-note{font:9px var(--mono);color:#7180a5;margin-top:18px}
+    @media(max-width:800px){.paper-cover{grid-template-columns:1fr;padding:30px;min-height:auto}.paper-cover img{max-width:320px;margin:auto}.paper-toc ol{columns:1}.paper-section{grid-template-columns:1fr;gap:15px}.paper-num{position:static}.matrix{font-size:10px}.matrix th,.matrix td{padding:9px}}
+    @media print{.topbar,.noise,.scanlines,.paper-back,footer{display:none!important}body{background:white;color:black}.paper-shell{width:100%;padding:0}.paper-cover,.paper-toc,.paper-body .callout{background:white;border-color:#999}.paper-cover h1,.paper-cover .sub,.paper-cover .edition,.paper-num,.paper-body h3,.paper-body strong,.paper-body p,.paper-body li,.paper-toc li{color:black}.paper-section{page-break-inside:avoid;border-color:#bbb}.matrix th,.matrix td{color:black;border-color:#aaa;background:white}.paper-body blockquote{background:#eee;color:black;border-color:#444}}
+  </style>
   <title>PROJECT GEEK — Whitepaper</title>
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div><div class="scanlines" aria-hidden="true"></div>
-  <header class="topbar" id="top">
-    <a class="brand" href="index.html"><img src="assets/icon.svg" alt="Project GEEK" width="48" height="48" /><span><b>PROJECT GEEK</b><small>WHITEPAPER // EDITION 1.0</small></span></a>
-    <nav><a href="index.html">HOME</a><a href="#thesis">THESIS</a><a href="#token">$GEEK</a><a class="nav-cta" href="#references">SOURCES</a></nav>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img src="assets/icon.svg" alt="Project GEEK" width="52" height="52" /><span><b>PROJECT GEEK</b><small>WHITEPAPER // EDITION 1.0</small></span></a>
+    <nav><a href="index.html">HOME</a><a href="#thesis">THESIS</a><a href="#token">GEEK</a><a class="nav-cta" href="#references">SOURCES</a></nav>
     <button class="menu" type="button" aria-label="Open menu" aria-expanded="false">MENU</button>
   </header>
 
@@ -31,7 +36,7 @@
     <section class="paper-toc">
       <b>CONTENTS // INDEX</b>
       <ol>
-        <li>Abstract</li><li>The 1973 Signal</li><li>The Project GEEK Thesis</li><li>The Name</li><li>The GEEK Files</li><li>The Cultural Layer</li><li>$GEEK</li><li>Launch Philosophy</li><li>Brand Canon</li><li>Risks & Boundaries</li><li>References</li>
+        <li>Abstract</li><li>The 1973 Signal</li><li>The Project GEEK Thesis</li><li>The Name</li><li>The GEEK Files</li><li>The Cultural Layer</li><li>GEEK</li><li>Launch Philosophy</li><li>Brand Canon</li><li>Risks & Boundaries</li><li>References</li>
       </ol>
     </section>
 
@@ -51,8 +56,8 @@
       <div class="paper-num">01 // ORIGIN</div>
       <div class="paper-body">
         <h2>The 1973 signal.</h2>
-        <p>In 1973, <em>Super Friends</em> aired an episode titled <em>Professor Goodfellow's G.E.E.C.</em> Apple TV identifies G.E.E.C. as the <strong>Goodfellow's Effort-Eliminating Computer</strong> and describes its purpose as freeing mankind from physical labor, brainwork and responsibility. The episode turns that promise into a warning when dependence on the system becomes a liability.</p>
-        <p>The important part for Project GEEK is not a frame-by-frame claim of prediction. It is the architecture of the idea: <strong>an expanding computational system absorbs more human effort, more machine control and more responsibility until convenience becomes infrastructure.</strong></p>
+        <p>In 1973, <em>Super Friends</em> aired an episode titled <em>Professor Goodfellow's G.E.E.C.</em> Apple TV describes G.E.E.C. as the <strong>Goodfellow's Effort-Eliminating Computer</strong>, invented to free humanity from physical labor, brainwork and responsibility. In the story, the system eventually malfunctions and the world has to recover from its dependence on it.</p>
+        <p>The important part for Project GEEK is not a frame-by-frame claim of prediction. It is the architecture of the idea: <strong>one expanding computational system absorbs more human effort, more machine control and more responsibility until convenience becomes infrastructure.</strong></p>
         <div class="callout"><b>CANON RULE</b>The historical episode is the spark, not the brand. Project GEEK uses original artwork, an original mascot, original terminology and its own narrative system. It does not use copyrighted superhero characters as project identity.</div>
         <p>The fictional machine came from an era of room-sized computers, magnetic tape and centralized control. Modern automation has taken a different path: distributed networks, cloud services, edge devices, specialized robots and machine-learning models. The implementation is different. The philosophical question survives.</p>
       </div>
@@ -117,11 +122,11 @@
     </section>
 
     <section class="paper-section" id="token">
-      <div class="paper-num">06 // $GEEK</div>
+      <div class="paper-num">06 // GEEK</div>
       <div class="paper-body">
-        <h2>The token is the cultural layer.</h2>
-        <p>$GEEK is intended as the community token associated with Project GEEK. Its role is cultural: a shared symbol for people participating in the lore, spreading the archive and building around the Project GEEK identity.</p>
-        <p>No claim is made that holding $GEEK provides equity, ownership of EgoShiftLabs, ownership of Project GEEK intellectual property, revenue rights, guaranteed access, guaranteed appreciation or a promised financial return. Any future feature that materially changes the token's function should be described publicly before the community is asked to rely on it.</p>
+        <h2>The ticker is the cultural layer.</h2>
+        <p>GEEK is intended as the community ticker associated with Project GEEK. Its role is cultural: a shared symbol for people participating in the lore, spreading the archive and building around the Project GEEK identity.</p>
+        <p>No claim is made that holding GEEK provides equity, ownership of EgoShiftLabs, ownership of Project GEEK intellectual property, revenue rights, guaranteed access, guaranteed appreciation or a promised financial return. Any future feature that materially changes the token's function should be described publicly before the community is asked to rely on it.</p>
         <h3>DEPLOYMENT DISCIPLINE</h3>
         <p>The official contract address is not published before deployment. This is deliberate. A pre-launch site should not contain a fake or temporary contract field that can be copied by impersonators. Once deployment is complete, the canonical address can be committed directly into the site and announced through the project's verified channels.</p>
         <h3>NETWORK</h3>
@@ -189,12 +194,13 @@
         <p>Modern technology examples in this paper are intentionally described at the category level rather than attached to speculative performance claims about individual companies. GEEK Files should add direct sources whenever they discuss a specific product, person, event or technical milestone.</p>
         <div class="callout"><b>FINAL SYSTEM NOTE</b>Project GEEK works best when the facts are boringly accurate and the presentation is wildly memorable.</div>
         <a class="button ghost paper-back" href="index.html">← RETURN TO PROJECT GEEK</a>
+        <p class="print-note">This document is designed to print cleanly from a modern browser if a PDF copy is needed.</p>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="footer-brand"><img src="assets/icon.svg" alt="" width="42" height="42" /><span><b>PROJECT GEEK</b><small>WHITEPAPER // EDITION 1.0</small></span></div>
+    <div class="footer-brand"><img src="assets/icon.svg" alt="" width="42" height="42" style="border-radius:50%" /><span><b>PROJECT GEEK</b><small>WHITEPAPER // EDITION 1.0</small></span></div>
     <p>Independent project. No affiliation with DC Comics, Warner Bros. Discovery, Hanna-Barbera, Elon Musk, Tesla, xAI, SpaceX, or any other referenced third party. Nothing in this document is financial advice.</p>
     <div class="footer-links"><a href="index.html">HOME</a><a href="#top">TOP</a></div>
   </footer>
